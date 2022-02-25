@@ -1,38 +1,311 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.test{
+  border:2px solid red;
+  padding:1rem 1rem;
+}
+.active{
+  background-color:#353945;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  color:#FFFFFF;
+}
+.bcard{
+  background:rgba(25, 27, 32, 1);
+  opacity: 0.8;
+  text-align:left;
+  width: 100%;
+  /*background-color:#191B20;*/
+  color: #ffffff;
+  border-radius: 24px;
+  font-family: Poppins;
+  height: 166px;
+}
+.bcard:hover{
+  border:1px solid blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bcard h5{
+  
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: left;
+
+}
+.blue{
+  border-radius: 16px;
+  color: #ffffff;
+  background-color:#3772FF;
+  margin: 10px 10px;
+}
+.greytxt{
+  color: #808191;
+}
+.bluebtn{
+  /*margin-left: 5rem;*/
+  margin-left: 5rem;
+    margin-top: 2rem;
+    justify-content: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 16px;
+  background-color:#3772FF;
+  color: #ffffff;
+  /*float: right;*/
+}
+.scard{
+  background:rgba(25, 27, 32, 1);
+  opacity: 0.8;
+  border-radius: 16px;
+  Font-family:Poppins;
+  padding: 2rem 2rem;
+  height: 178px;
+
+
+}
+.scard:hover{
+  border:1px solid blue;
+}
+.scard h5{
+  font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+}
+.scard p{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #808191;
+margin:1rem 0;
+opacity: 0.8;
+}
+.scard a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.toaststyle{
+  position:relative;
+  /*left: 0;
+  top:0;*/
+  /*justify-content: center;
+  height: 86px;
+  width:687px;*/
+  background-color: #ABE8FF;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2B2557;
+  margin-bottom: 1rem;
+ /* margin-top: 1rem;
+  padding-top:2px;*/
+
+}
+.toaststyle:hover{
+  border:1px solid blue;
+}
+.toaststyle p{
+  margin-top:1rem;
+  marging-bottom: 0;
+}
+.toaststyle button{
+  border: none;
+  background: #FFFFFF;
+ border-radius: 6px;
+ margin-bottom: 1rem;
+}
+.toaststyle img{
+  position:absolute;
+  right: 3px;
+  bottom: -10px;
+}
+.headmid{
+  color:#FFFFFF;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.headmid h6{
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #3772FF;
+  text-decoration-thickness: 2px;
+}
+.headmid .headdiv{
+  width: 180px;
+  height: 38px;
+  float: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 12px;
+}
+.headdiv button{
+  height:22px;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.circleicon{
+  height: 22px;
+  margin-right: 15px;
+}
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+min-height: 100vh !important;
+/*z-index: -1;*/
+padding: 48px 10px 10px;
+box-shadow: inset -1px 0 0 rgba(105, 105, 105, .2);
+background-color: #000000;
   }
+.sidebar .nav-link{
+  color: #808191;
 }
+.sidebar li:hover{
+   border:1px solid blue;
+}
+.footer {
+    height:95px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+.footer .input-group .btn {
+ 
+  z-index:-1;
+}
+.header {
+  /*height:40px;
+  width:100%;*/
+  font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 23.5618px;
+/*line-height: 31px;*/
+text-align:left;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+text-decoration: none;
+}
+.logo{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 50%;
+  border:1px solid #3772FF;
+  margin-left:0.5rem;
+  margin-right: 1rem;
+    color:#ffffff;
+    background-color :#3772FF;
+    padding:0 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+text-align: center;
+color: #FEFEFE;
+}
+.sidebar .nav-pills .nav-link.active{
+  color: #ffffff;
+  background-color: #353945;
+}
+.greybg{
+  background-color: #353945;
+  border-radius:10px;
+}
+.lbluebg{
+  background-color: #A3E3FF;
+  border-radius:10px;
+}
+.sz{
+  align: text-center;
+  width:78px;
+  height:37px;
+  padding:3px;
+  font-size: 14px;
+  color:#FFFFFF;
+}
+.lbluebg button{
+  border: none;
+}
+.nav-linkactive{
+  
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/*.sidebar li .active{
+  background-color:#353945;
+  color: #ffffff;
+}*/
+.mportion{
+  background-color: #000000;
+  box-shadow: inset 2px 0 0 rgba(0, 0, 0, .1);
+}
+.lportion{
+  background-color: #000000;
+  box-shadow: inset 2px 0 0 rgba(105, 105, 105, .2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form{
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+form button{
+  align: center;
+  border: 1px solid #242731;
+  color: #ffffff;
+  border-radius: 10px;
+}
+form a{
+  text-decoration: none;
+  color: #ffffff;
+}
+form input{
+  margin: 3rem 0.5rem;
+}
+.wallet{
+  width:20px;
+  height: 20px;
+  margin-right:7px;
+  color:#3772FF;
+
+}
+#avx{
+  height: 20px;
+width: 20px;
+left: 8.2822265625px;
+top: 10.43359375px;
+
+
 }
